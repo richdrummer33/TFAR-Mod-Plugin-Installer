@@ -1,7 +1,7 @@
 # TFAR (Task Force Arma 3 Radio) Installation Guide
 Run TFAR_Installer.bat - that's it. This automatically installs everything needed for TFAR:
-- Arma mod
-- Teamspeak plugin.
+- Arma TFAR mod.
+- Teamspeak TFAR plugin.
 
 ## Quick Install
 Run `TFAR_Installer.bat` to automatically complete all installation steps.
