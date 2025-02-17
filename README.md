@@ -13,4 +13,4 @@ Edit `tfar_mod_version.txt` to change TFAR version (Default: 1.0.334)
 
 ---
 
-If the installer fails: Consult HELPME.txt
+If the installer fails: Consult `HELPME.txt`
