@@ -1,7 +1,12 @@
 # TFAR (Task Force Arma 3 Radio) Installation Guide
+Run TFAR_Installer.bat - that's it. This automatically installs everything needed for TFAR:
+- Arma mod
+- Teamspeak plugin.
 
 ## Quick Install
-Run `TFAR_Installer.bat` to automatically complete all installation steps. While administrator rights shouldn't be necessary, try running as administrator if the installer fails.
+Run `TFAR_Installer.bat` to automatically complete all installation steps.
+
+While administrator rights shouldn't be necessary, try running as administrator if the installer fails.
 
 #### Version Selection
 Before installing, specify your desired TFAR version:
