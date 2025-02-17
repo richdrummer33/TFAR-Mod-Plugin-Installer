@@ -4,7 +4,6 @@
 Run `TFAR_Installer.bat` - that's it. This automatically installs everything needed for TFAR:
 - Arma 3 mod
 - TeamSpeak plugin
-- Correct configuration
 
 If the installer fails, try running as administrator or follow the manual steps below.
 
