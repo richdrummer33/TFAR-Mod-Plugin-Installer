@@ -3,7 +3,7 @@
 ## Quick Install
 Run `TFAR_Installer.bat` to automatically complete all installation steps. While administrator rights shouldn't be necessary, try running as administrator if the installer fails.
 
-## Version Selection
+#### Version Selection
 Before installing, specify your desired TFAR version:
 1. Open `tfar_mod_version.txt` in a text editor
 2. Set your preferred version number
