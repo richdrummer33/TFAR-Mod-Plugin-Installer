@@ -1,44 +1,46 @@
-===================
---README--
-SPECIFY TFAR VERSION:
-Open file 'tfar_mod_version.txt' in a text-editor, and set the version. 
-Available versions: https://github.com/michail-nikolaev/task-force-arma-3-radio/releases/download/1.0-PreRelease/1.-1.0.334.zip
-Default: 1.0.334 
+# TFAR (Task Force Arma 3 Radio) Installation Guide
 
-TO RUN THE INSTALLER:
-TFAR_Installer.bat runs these steps automatically. 
-Shouldn't need to be ran as Administrator, but if it fails, it's worth trying.
-If it fails, then follow the steps below.
-===================
+## Quick Install
+Run `TFAR_Installer.bat` to automatically complete all installation steps. While administrator rights shouldn't be necessary, try running as administrator if the installer fails.
 
+## Version Selection
+Before installing, specify your desired TFAR version:
+1. Open `tfar_mod_version.txt` in a text editor
+2. Set your preferred version number
+   - Default: 1.0.334
+   - Available versions: [TFAR Releases](https://github.com/michail-nikolaev/task-force-arma-3-radio/releases/download/1.0-PreRelease/1.-1.0.334.zip)
 
-[A] THE ARMA MOD
-1. Dnld this zip 
-	https://github.com/michail-nikolaev/task-force-arma-3-radio/releases/download/1.0-PreRelease/1.-1.0.334.zip
-	List of all versions:
-	https://github.com/michail-nikolaev/task-force-arma-3-radio/releases/tag/1.0-PreRelease
+If the automatic installer fails, follow the manual installation steps below.
 
-2. Extract zip to
-	E:\SteamLibrary\steamapps\common\Arma 3\!Workshop\
+## Manual Installation Steps
 
-   Then you will see:   
-	E:\SteamLibrary\steamapps\common\Arma 3\!Workshop\@TFAR\
+### A. Arma 3 Mod Installation
+1. Download the mod:
+   ```
+   https://github.com/michail-nikolaev/task-force-arma-3-radio/releases/download/1.0-PreRelease/1.-1.0.334.zip
+   ```
+   Browse all versions: https://github.com/michail-nikolaev/task-force-arma-3-radio/releases/tag/1.0-PreRelease
 
+2. Extract to Arma 3 Workshop directory:
+   ```
+   E:\SteamLibrary\steamapps\common\Arma 3\!Workshop\
+   ```
+   You should see: `E:\SteamLibrary\steamapps\common\Arma 3\!Workshop\@TFAR\`
 
-[B] THE TEAMSPEAK ADDON (aka PLUGIN): Makes Teamspeak work with ARMA's TFAR mod
-1. Dnld this zip:
-	https://github.com/michail-nikolaev/task-force-arma-3-radio/releases/download/1.0-PreRelease/TeamspeakPlugins.zip
-	-> This Teamspeak plugin works for ALL versions of the ARMA TFAR mod!
+### B. TeamSpeak Plugin Installation
+1. Download the plugin:
+   ```
+   https://github.com/michail-nikolaev/task-force-arma-3-radio/releases/download/1.0-PreRelease/TeamspeakPlugins.zip
+   ```
+   Note: This plugin is compatible with all TFAR mod versions
 
-3. Extract zip to:
-	%APPDATA%\TS3Client\plugins
-	-> %APPDATA% is a shortcut path to C:\Users\<windows-username>\AppData
+2. Extract to TeamSpeak plugins directory:
+   ```
+   %APPDATA%\TS3Client\plugins
+   ```
+   Note: `%APPDATA%` typically resolves to `C:\Users\<windows-username>\AppData`
 
-
-[C] MOD SETUP
-1. Open the ARMA 3 launcher (I.e. launch ARMA from Steam)
-
-2. Select the MODS tab in the ARMA 3 Launcher
-
-3. Search and enable: ✅Task Force Radio 
-	-> this is the ARMA MOD unzipped in [A]
+### C. Mod Configuration
+1. Launch Arma 3 through Steam
+2. Navigate to the MODS tab in the launcher
+3. Search for and enable "Task Force Radio"
